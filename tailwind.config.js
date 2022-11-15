@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         bgColorOne: "#A02279",
+        footerColor: "#1D1D1E",
       },
       fontFamily: {
         "main-font": ["Red Rose", "cursive"],
