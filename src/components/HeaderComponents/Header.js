@@ -3,7 +3,6 @@ import * as FiIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import { MetaMaskContent } from "../../utils/context";
 import { Link } from "react-router-dom";
-import "./Header.css";
 
 export default function Header() {
   const getWindowSize = () => {
@@ -39,7 +38,7 @@ export default function Header() {
   const { displayMeta, setDisplayMeta } = useContext(MetaMaskContent);
 
   return (
-    <div className="nav-container">
+    <div className="relative flex justify-between items-center">
       <div className="mx-4 lg:mx-16">
         <svg
           width="120"

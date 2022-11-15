@@ -21,7 +21,7 @@ import Frame59546 from "../assets/home/Frame 59546.png";
 function HomePage() {
   const { displayMeta } = useContext(MetaMaskContent);
   return (
-    <>
+    <div className="pt-5 font-main-font">
       <Header />
       <div className="mx-4 flex flex-col lg:flex-row pt-20 pb-10 lg:items-center lg:mx-16">
         <div className="flex flex-col lg:flex-1 lg:h-full lg:items-center lg:text-left lg:justify-start w-full items-center text-center ">
@@ -99,7 +99,7 @@ function HomePage() {
       {/* footer */}
       <Footer />
       {displayMeta && <Modal />}
-    </>
+    </div>
   );
 }
 
