@@ -20,9 +20,9 @@ const Modal = () => {
         }}
       ></div>
       <div className="flex justify-center items-center relative p-4 w-full h-full md:h-auto z-50 lg:h-screen">
-        <div className="relative bg-white rounded-lg shadow  w-[95%] lg:w-[50%]">
+        <div className="relative bg-white dark:bg-black rounded-lg shadow  w-[95%] lg:w-[50%]">
           <div className="flex justify-between items-center px-5 mt-5 pb-3 ">
-            <p className="font-bold">Connect Wallet</p>
+            <p className="font-bold dark:text-white">Connect Wallet</p>
             <button
               type="button"
               className=" text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-800 dark:hover:text-white"
